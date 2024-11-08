@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Anton-Regular';
+    src: url('../other/Anton_Regular.ttf') format('truetype');
+}
+
+body {
+    height: auto;
+    width: 100vw;
+    background-color: #121012;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid {
+    width: 97%;
+}
+
+.title_footer {
+    color: whitesmoke;
+}
+
+main {
+    border-radius: 9px;
+    background-color: #413e40;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.5% 0 1.5% 0;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100vw;
+    height: auto;
+    padding: 3%;
+    background-color: #006414;
+}
+
+.jumbotron {
+    font-family: 'Anton-Regular';
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Anton-Regular';
+}
+
+.lead {
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+    font-size: x-large;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.image1 {
+    width: 50%;
+    height: auto;
+}
+
+img {
+    border: #009929 3px solid;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #009929;
+}
+
+.alt1 {
+    font-size: small;
+    margin-top: 5px;
+}
+
+.iframe {
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 700px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .image1 {
+        width: 70%;
+        margin-bottom: 15px;
+    }
+
+    .iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .image1 {
+        width: 100%;
+    }
+}
