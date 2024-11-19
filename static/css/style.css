@@ -83,6 +83,9 @@ h1 {
     width: 560px;
     height: 315px;
 }
+.margin1{
+    border-left: solid 1px #009929;
+}
 
 @media (max-width: 700px) {
     .d-flex {
